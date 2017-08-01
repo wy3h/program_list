@@ -1,4 +1,4 @@
-package CoreJava14Chapter;
+package bounce;
 
 import java.awt.*;
 import java.awt.event.*;
