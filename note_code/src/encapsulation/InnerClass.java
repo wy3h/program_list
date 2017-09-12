@@ -5,7 +5,7 @@ public class InnerClass
 	public static void main(String[] args)
 	{
 		People p = new People("Ana", 1);
-		People.Friend f = p.new Friend("smile");
+		People.Friend f = p.new Friend("smile");				// new a inner class
 		f.talk();
 	}
 }
@@ -21,7 +21,7 @@ class People
 		this.id = id;
 	}
 	
-	public class Friend
+	public class Friend				// inner class
 	{
 		private String likeWord;
 		Friend(String word)
