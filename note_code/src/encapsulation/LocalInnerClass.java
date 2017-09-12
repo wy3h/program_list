@@ -13,7 +13,7 @@ class Person
 {
 	public void talk( String aname, String afood, int aid)
 	{
-		class Girl
+		class Girl			// Local Inner class
 		{
 			private String name;
 			private String food;
