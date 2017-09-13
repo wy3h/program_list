@@ -8,7 +8,7 @@ public class AnonymousInnerClass
 		d1.show("Jerry", 1, "female");				
 		SaySomething s = new SaySomething()					// Anonymous inner class implement interface SaySomething
 		{
-			public void saysomething()						// overload saysomething()
+			public void saysomething()						// override saysomething()
 			{
 				System.out.println("this is a overload saysomething()");
 			}
@@ -33,7 +33,7 @@ class Dog
 	{
 		Dog d = new Dog(a_name, a_age)			// anonymous inner class inherit superclass
 		{
-			void showSomething()				// overload showSomething()
+			void showSomething()				// override showSomething()
 			{
 				System.out.println("my sex is " + a_sex);
 			}

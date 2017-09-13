@@ -19,13 +19,13 @@ public class Cat extends Animal		// subclass
 	{
 		System.out.println("A cat eating something.");
 	}
-	public void paly()
+	public void play()
 	{
-		System.out.println("A cat palying something.");
+		System.out.println("A cat playing something.");
 	}
 	public void show()
 	{
-		System.out.println("The cat name is " + super.getName());
+		System.out.println("The cat name is " + super.getName());	// must call super.getName() to get super private date
 		System.out.println("is " + super.getAge() + " years old");
 		System.out.println("its a " + getColor() + " cat");
 	}
@@ -34,7 +34,7 @@ public class Cat extends Animal		// subclass
 	{
 		Cat c = new Cat("Tom", 2, "blue");
 		c.eat();
-		c.paly();
+		c.play();
 		c.show();
 		System.out.println(c instanceof Cat);
 	}
